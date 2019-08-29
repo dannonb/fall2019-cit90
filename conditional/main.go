@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	foo()
 	bar()
+	dog()
 }
 
 func foo() {
@@ -30,4 +31,18 @@ func bar() {
 		case 5: fmt.Println(5)
 		case 6: fmt.Println(6)
 }
+}
+
+func dog() {
+	x := 25 
+	switch {
+	case false:
+		fmt.Println("no")
+	case false:
+		fmt.Println("true")
+	case (x == 25):
+		fmt.Println("x is %v", x)
+	default: 
+	fmt.Println("default")		
+	}
 }
