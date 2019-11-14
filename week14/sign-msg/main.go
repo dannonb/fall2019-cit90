@@ -5,9 +5,6 @@ import (
 	"log"
 	"net/http"
 	"golang.org/x/crypto/bcrypt"
-
-
-
 )
 
 var tpl *template.Template
